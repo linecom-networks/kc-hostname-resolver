@@ -1,0 +1,57 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.linecom.kc</groupId>
+  <artifactId>kc-hostresolver</artifactId>
+  <version>1.0.1</version>
+  
+  
+  
+  <properties>
+		<maven.compiler.source>1.7</maven.compiler.source>
+		<maven.compiler.target>1.7</maven.compiler.target>
+	</properties>
+	
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>3.8.1</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.keycloak</groupId>
+			<artifactId>keycloak-servlet-filter-adapter</artifactId>
+			<version>3.4.3.Final</version>
+		</dependency>
+		<dependency>
+    		<groupId>org.keycloak</groupId>
+    		<artifactId>keycloak-adapter-core</artifactId>
+    		<version>3.4.3.Final</version>
+		</dependency>
+		
+
+
+
+	</dependencies>
+  
+  
+  <repositories>
+		<repository>
+			<releases>
+				<enabled>true</enabled>
+				<updatePolicy>always</updatePolicy>
+				<checksumPolicy>warn</checksumPolicy>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+				<updatePolicy>never</updatePolicy>
+				<checksumPolicy>fail</checksumPolicy>
+			</snapshots>
+			<id>redhatga</id>
+			<name>Red Hat JBoss Middleware Maven Repository GA</name>
+			<url>https://maven.repository.redhat.com/ga/</url>
+			<layout>default</layout>
+		</repository>
+	</repositories>
+ 
+</project>
