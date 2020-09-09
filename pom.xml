@@ -2,13 +2,15 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>net.linecom.kc</groupId>
   <artifactId>kc-hostresolver</artifactId>
-  <version>1.0.1</version>
+  <version>1.0.2</version>
   
   
   
   <properties>
 		<maven.compiler.source>1.7</maven.compiler.source>
 		<maven.compiler.target>1.7</maven.compiler.target>
+		<!-- <keycloak-version>3.4.3.Final</keycloak-version> -->
+		<keycloak-version>10.0.2</keycloak-version>
 	</properties>
 	
 	<dependencies>
@@ -21,12 +23,12 @@
 		<dependency>
 			<groupId>org.keycloak</groupId>
 			<artifactId>keycloak-servlet-filter-adapter</artifactId>
-			<version>3.4.3.Final</version>
+			<version>${keycloak-version}</version>
 		</dependency>
 		<dependency>
     		<groupId>org.keycloak</groupId>
     		<artifactId>keycloak-adapter-core</artifactId>
-    		<version>3.4.3.Final</version>
+    		<version>${keycloak-version}</version>
 		</dependency>
 		
 
