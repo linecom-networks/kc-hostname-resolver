@@ -37,7 +37,7 @@ Si se utiliza Maven, se añade en pom.xml.
 <dependency>
     <groupId>org.keycloak</groupId>
     <artifactId>keycloak-servlet-filter-adapter</artifactId>
-    <version>10.0.2.Final</version>
+    <version>10.0.2</version>
 </dependency>
 ```
 
