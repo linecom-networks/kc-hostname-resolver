@@ -6,9 +6,10 @@ Describir las adaptaciones a realizar en aplicaciones web desarrolladas en JEE p
 
 ## Entorno
 
-* Servidor RedHat SSO 7.2
+* Servidor RedHat SSO 7.3
 * Servidores aplicaciones: Weblogic 12.2.1, Java 8. 
 * Servidores aplicaciones: Weblogic 12.1.2, Java 7. 
+* JBOSS EAP 7.2
 
 ## Software requerido
 
@@ -36,16 +37,8 @@ Si se utiliza Maven, se añade en pom.xml.
 <dependency>
     <groupId>org.keycloak</groupId>
     <artifactId>keycloak-servlet-filter-adapter</artifactId>
-    <version>3.4.3.Final</version>
+    <version>10.0.2.Final</version>
 </dependency>
-```
-
-
-
-Si se utiliza Gradle en build.gradle
-
-``` xml
-compile group: 'org.keycloak', name: 'keycloak-servlet-filter-adapter', version: '3.4.3.Final-redhat1'
 ```
 
 
